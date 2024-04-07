@@ -1,0 +1,8 @@
+<div class="callback-container">
+  <h1>PhonePe Callback Response</h1>
+  <div class="response-details">
+    <p><strong>Order ID:</strong> {{ orderId }}</p>
+    <p><strong>Status:</strong> {{ status }}</p>
+    <p *ngIf="responseDecoded"><strong>Decoded Response:</strong> {{ responseDecoded }}</p>
+  </div>
+</div>
